@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utc-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="surveyform.css" />
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Practice Survey Form</h1>
+      <p id="description">This is a Practice Survey Form!</p>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label" for="name">Please Enter Your Name Here (First, Last): <input id="name" name="name" type="text" placeholder="Enter Your Name Here" required></input></label>
+
+          <label id="email-label" for="email">Please Enter Your E-mail Address: <input id="email" name="email" type="email" placeholder="Enter Your E-mail Here" required></input></label>
+
+          <label id="number-label" for="number">Please Enter Your Age: <input id="number" name="number" type="number" min="0" max="100" placeholder="Enter Your Age Here" required></input></label>
+
+<label for="referrer">How did you like your eggs?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Fried</option>
+            <option value="2">Boiled</option>
+            <option value="3">Scrambled</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+
+          Do you like water?
+          <label for="option-one"><input id="option-one" type="radio" name="radio-option" class="inline" value="0" /> Yes</label>
+        <label for="option-two"><input id="option-two" type="radio" name="radio-option" class="inline" value="0"/> No</label>
+        <label for="option-three"><input id="option-three" type="radio" name="radio-option" class="inline" value="0"/> Maybe So</label>
+        
+        Do you like cheeseburgers?
+        <label for="dropbox-one">
+          <input id="dropbox-one" type="checkbox" required name="dropbox-one" class="inline" value="0"/>Absolutely
+        </label><label for="dropbox-two">
+          <input id="dropbox-two" type="checkbox" required name="dropbox-two" class="inline" value="0"/>Absolutely Not
+        </label>
+
+        <label for="bio">Enter Information Here:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="E cacas, multi..."></textarea>
+        </label>
+        </fieldset>
+        <input type="submit" id="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
+
+</html>

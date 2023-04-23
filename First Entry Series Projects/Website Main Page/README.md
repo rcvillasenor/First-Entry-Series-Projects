@@ -1,3 +1,7 @@
+First Entry Series (FES) - Website Main Page Demo
+
+Simple website main page web project to practice with html, css, and js.
+
 A step above a previous project (Login Form).
 
 Functionality will include a "main web page" of sorts that has a login feature using a wrapper and some animations to rotate between login "states".
